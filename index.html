@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+    <main>
+
+        <section>
+
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-12">
+                        <form action="">
+                            <select class="form-select" aria-label="Default select example" id="artista">
+                                <option selected>Open this select menu</option>
+                                <option value="2w1UJL5kYJJkvjo71fQjOB">Jean Carlos Centeno</option>
+                                <option value="0B9fAbZMZTBXUyffDU2Mxj">Nelson velasquez</option>
+                                <option value="7rNbdH4pgrnwguvzxhA2Ek">Jorge Celedon</option>
+                                <option value="1viot8lL4r3cgRLb2hBUri">Miguel Morales</option>
+                                <option value="5EQkvkaE9pNbtp3vrWBLh8">Rafael Orozco</option>
+                                <option value="5OG4S2qn54NS8AAw5dCbgN">Farid Ortiz</option>
+                                <option value="66NweiA3nU84k1S3SZdTSG">Diomedes Diaz</option>
+                                <option value="3OcvS8PzSGYMBvLdzY6g3e">Silvestre Dangond</option>
+                                <option value="1nVWUKrhf81C1A3Od2Eg1l">Romualdo Brito</option>
+                                <option value="3yHLsTJ9OZ19qwY1Q5BEQJ">Binomio de Oro</option>
+                            </select>
+                            <button type="submit" class="btn btn-primary w-100 mt-4 " id="buscar"> Buscar </button>
+                            <a href="./src/views/historias.html" class="btn btn-primary w-100 mt-4 mb-4 " id="historiaArtista" > Historia Del Artista </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-5 g-3" id="fila">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+
+
+
+
+
+    <script src="./src/controllers/controladorBuscarCanciones.js" type="module"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
